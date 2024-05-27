@@ -1,0 +1,26 @@
+{
+  "name": "notes-backend",
+  "version": "1.0.0",
+  "description": "backend for fullstackopen notes project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gpeleritti/fullstackopen.git"
+  },
+  "author": "gpeleritti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gpeleritti/fullstackopen/issues"
+  },
+  "homepage": "https://github.com/gpeleritti/fullstackopen#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
